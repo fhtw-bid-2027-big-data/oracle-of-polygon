@@ -1,0 +1,9 @@
+# Oracle of Polygon - Requirements (Python >= 3.10)
+requests>=2.31        # HTTP layer (extraction)
+pymongo>=4.6          # MongoDB interface (storage layer)
+pandas>=2.0           # cleaning + features
+pyarrow>=15.0         # Parquet engine
+matplotlib>=3.8       # charts
+scikit-learn>=1.3     # ML (final: IsolationForest, DecisionTree)
+pyspark>=3.5          # Spark processing layer
+jupyter>=1.0          # notebooks
